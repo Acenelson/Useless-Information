@@ -1,0 +1,61 @@
+body{
+	text-align: center;
+	background-color: gold;
+	color: black;
+	font-family: 'monospace', lucida console;
+	margin: 0;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: darkgoldenrod;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'sans-serif;', Arial;
+	letter-spacing: 5px;
+	font-size: 30px;
+	text-shadow: black 2px 2px 2px ;
+}
+
+h2{
+	margin-top: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: goldenrod;
+}
+button{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: goldenrod;
+	border-style: none;
+	margin-bottom: 10px;
+}
+button:hover{
+	background-color: darkgoldenrod;
+	color: white;
+	cursor: pointer;
+}
+div.water{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px;
+	border-style: solid;
+	background-color: goldenrod;
+}
+.games{
+	color: green;
+
+}
+.memes{
+	color: white;
+}
+.anims{
+	color: darkgrey;
+}
+.fire{
+	color: red;
+}
