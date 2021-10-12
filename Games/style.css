@@ -1,0 +1,112 @@
+body{
+	background-color: black ;
+	margin: 0;
+	color: limegreen;
+	font-family: 'sans-serif', arial;
+
+}
+* {
+  box-sizing: border-box;
+}
+h1{
+	background-color: green;
+	color: white;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+h2{
+
+	/*background-color: grey;*/
+	color: grey;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+h3{
+	/* background-color: darkgrey; */
+	color: white;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'monospace', lucida console;
+
+}
+h4{
+	/* background-color: lightgrey; */
+	color: white;
+	margin: 0;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	font-family: 'monospace', lucida console;
+}
+section{
+	clear: left;
+}
+p{
+	font-family: 'monospace', lucida console;
+}
+ul li{
+	font-family: 'monospace', lucida console;
+	list-style: none;
+}
+li{
+	font-family: 'monospace', lucida console;
+}
+a{
+	text-decoration: none;
+	color: purple;
+}
+a:hover{
+	color: yellow;
+}
+hr{
+	color: limegreen;
+}
+
+.foe{
+	width: 50%;
+	float: left;
+	border-left: black;
+	border-left: 5px;
+	color: red;
+}
+.friend{
+	width: 50%;
+	float: left;
+	color: limegreen;
+}
+.useless{
+	color: goldenrod;
+}
+.info{
+	color: yellow;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: limegreen;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 160px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.money{
+	color: orange;
+}
